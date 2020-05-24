@@ -1,0 +1,1479 @@
+﻿Log file open, 05/21/20 00:02:02
+LogInit: Display: Running engine for game: PinballTut
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.228978
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:160][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.20-22.02.03:160][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.20-22.02.03:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:161][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:166][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:166][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-22.02.03:166][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-22.02.03:166][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:166][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-22.02.03:166][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:166][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-22.02.03:166][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-22.02.03:167][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.20-22.02.03:168][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-22.02.03:168][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.20-22.02.03:168][  0]LogHAL: Display: Platform has ~ 16 GB [17044111360 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.20-22.02.03:168][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-22.02.03:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.20-22.02.03:169][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.05.20-22.02.03:170][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Config/Windows/Engine.ini]
+[2020.05.20-22.02.03:170][  0]LogInit: Computer: DE-20L6PF1GPL8K
+[2020.05.20-22.02.03:170][  0]LogInit: User: joaoamatos
+[2020.05.20-22.02.03:170][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.20-22.02.03:170][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.20-22.02.03:171][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.05.20-22.02.03:171][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.20-22.02.03:171][  0]LogMemory: Process Physical Memory: 118.47 MB used, 118.48 MB peak
+[2020.05.20-22.02.03:171][  0]LogMemory: Process Virtual Memory: 97.60 MB used, 121.61 MB peak
+[2020.05.20-22.02.03:171][  0]LogMemory: Physical Memory: 5735.08 MB used,  10519.45 MB free, 16254.53 MB total
+[2020.05.20-22.02.03:171][  0]LogMemory: Virtual Memory: 5131.09 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.05.20-22.02.03:182][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.20-22.02.03:249][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.05.20-22.02.03:250][  0]LogInit: Using OS detected language (en-US).
+[2020.05.20-22.02.03:250][  0]LogInit: Using OS detected locale (de-DE).
+[2020.05.20-22.02.03:259][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.20-22.02.03:463][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.20-22.02.03:524][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.20-22.02.03:524][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.20-22.02.03:956][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-22.02.03:956][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.20-22.02.03:956][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.20-22.02.03:956][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.20-22.02.04:034][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.05.20-22.02.04:034][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.20-22.02.04:038][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.20-22.02.04:038][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.20-22.02.04:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.20-22.02.04:046][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.20-22.02.04:046][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.20-22.02.04:047][  0]LogWindows: EnumDisplayDevices:
+[2020.05.20-22.02.04:047][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.05.20-22.02.04:049][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.20-22.02.04:050][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.20-22.02.04:052][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.20-22.02.04:052][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2020.05.20-22.02.04:052][  0]LogD3D11RHI:   Driver Version: 26.20.100.7261 (internal:26.20.100.7261, unified:26.20.100.7261)
+[2020.05.20-22.02.04:052][  0]LogD3D11RHI:      Driver Date: 9-25-2019
+[2020.05.20-22.02.04:052][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.05.20-22.02.04:134][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.20-22.02.04:135][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.20-22.02.04:135][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.20-22.02.04:135][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.05.20-22.02.04:143][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.20-22.02.05:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.20-22.02.05:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.20-22.02.05:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.20-22.02.05:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.20-22.02.05:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.05.20-22.02.05:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.20-22.02.05:132][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.20-22.02.05:147][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.20-22.02.05:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.20-22.02.05:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.20-22.02.05:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.20-22.02.05:235][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.20-22.02.05:235][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.20-22.02.05:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.20-22.02.05:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.20-22.02.05:282][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.20-22.02.05:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.20-22.02.05:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.20-22.02.05:331][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.20-22.02.05:331][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.20-22.02.05:351][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.20-22.02.05:496][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Intermediate/Shaders/WorkingDirectory/15364/).
+[2020.05.20-22.02.05:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joaoamatos/AppData/Local/Temp/UnrealShaderWorkingDir/37C0071D48864893FA31EE99A1237AC8/'.
+[2020.05.20-22.02.05:497][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.20-22.02.05:497][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.20-22.02.05:497][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.20-22.02.06:693][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: Loaded boot cache 0.07s 104MB C:/Users/joaoamatos/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joaoamatos/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-22.02.06:765][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.20-22.02.06:776][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.20-22.02.06:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-22.02.06:776][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.20-22.02.06:778][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joaoamatos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.20-22.02.06:778][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.20-22.02.06:778][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.20-22.02.06:846][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.20-22.02.06:848][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.20-22.02.06:899][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.05.20-22.02.07:219][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-22.02.07:405][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.20-22.02.07:405][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.20-22.02.07:405][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.20-22.02.07:405][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.20-22.02.07:405][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.20-22.02.07:428][  0]LogNetVersion: PinballTut 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1322042723)
+[2020.05.20-22.02.08:178][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EAC0E3E300), frame # 0
+[2020.05.20-22.02.08:178][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EAC0DC6D40), frame # 0
+[2020.05.20-22.02.08:180][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAC0E68400), frame # 0
+[2020.05.20-22.02.08:269][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.081762 seconds
+[2020.05.20-22.02.08:274][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.05.20-22.02.08:274][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.05.20-22.02.08:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.20-22.02.08:954][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.20-22.02.08:962][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.20-22.02.09:108][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.09:108][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.09:115][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.09:121][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.09:148][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.09:175][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.05.20-22.02.09:176][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.05.20-22.02.09:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.20-22.02.09:653][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-22.02.09:653][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-22.02.09:735][  0]LogOcInput: OculusInput pre-init called
+[2020.05.20-22.02.09:755][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.20-22.02.09:755][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.20-22.02.09:843][  0]LogEngine: Initializing Engine...
+[2020.05.20-22.02.09:845][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-22.02.09:845][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.05.20-22.02.09:846][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.20-22.02.09:992][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.20-22.02.10:007][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-22.02.10:007][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAC4BAD800), frame # 0
+[2020.05.20-22.02.10:007][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EAC4BF5080), frame # 0
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-22.02.10:015][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-22.02.10:015][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-22.02.10:015][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-22.02.10:084][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-22.02.10:084][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-22.02.10:981][  0]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek(R) Audio)
+[2020.05.20-22.02.10:984][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-22.02.10:988][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-22.02.10:988][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-22.02.10:989][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-22.02.10:990][  0]LogInit: FAudioDevice initialized.
+[2020.05.20-22.02.10:991][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.20-22.02.11:070][  0]LogDerivedDataCache: Saved boot cache 0.08s 104MB C:/Users/joaoamatos/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.20-22.02.11:073][  0]LogInit: Texture streaming: Enabled
+[2020.05.20-22.02.11:113][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.20-22.02.11:113][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.20-22.02.11:123][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.20-22.02.11:186][  0]LogInit: Transaction tracking system initialized
+[2020.05.20-22.02.11:229][  0]BlueprintLog: New page: Editor Load
+[2020.05.20-22.02.11:372][  0]LocalizationService: Localization service is disabled
+[2020.05.20-22.02.11:514][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.05.20-22.02.11:515][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.05.20-22.02.11:634][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.20-22.02.11:634][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.20-22.02.11:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/' took 0.00s
+[2020.05.20-22.02.12:389][  0]SourceControl: Source control is disabled
+[2020.05.20-22.02.12:389][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.095
+[2020.05.20-22.02.12:389][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-22.02.12:390][  0]LightingResults: New page: Lighting Build
+[2020.05.20-22.02.12:392][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.02.12:392][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.02.12:392][  0]MapCheck: New page: Map Check
+[2020.05.20-22.02.12:392][  0]LightingResults: New page: Lighting Build
+[2020.05.20-22.02.12:407][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAC4BAD800), frame # 0
+[2020.05.20-22.02.12:407][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EAC4BF5080), frame # 0
+[2020.05.20-22.02.12:408][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.05.20-22.02.12:500][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.05.20-22.02.12:500][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAB0AC3E00), frame # 0
+[2020.05.20-22.02.12:500][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EAB3AB9800), frame # 0
+[2020.05.20-22.02.12:504][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-22.02.12:518][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.20-22.02.12:519][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-22.02.12:519][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,338ms to complete.
+[2020.05.20-22.02.12:519][  0]LogFileHelpers: Loading map 'Template_Default' took 0.130
+[2020.05.20-22.02.12:522][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.228
+[2020.05.20-22.02.12:694][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.02.12:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.02.12:711][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.02.12:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.02.12:737][  0]LogCollectionManager: Loaded 0 collections in 0.002602 seconds
+[2020.05.20-22.02.12:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Collections/' took 0.00s
+[2020.05.20-22.02.12:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Developers/joaoamatos/Collections/' took 0.00s
+[2020.05.20-22.02.12:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Collections/' took 0.00s
+[2020.05.20-22.02.12:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3426 classes and 820 folders.
+[2020.05.20-22.02.12:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-22.02.13:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-22.02.13:084][  0]LogSlate: Took 0.000666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.20-22.02.13:089][  0]LogSlate: Took 0.000751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.20-22.02.13:093][  0]LogSlate: Took 0.001323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.20-22.02.13:194][  0]LogRenderer: Reallocating scene render targets to support 1516x616 Format 10 NumSamples 1 (Frame:1).
+[2020.05.20-22.02.13:328][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-22.02.13:328][  0]LogLoad: (Engine Initialization) Total time: 13.03 seconds
+[2020.05.20-22.02.13:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.20-22.02.13:382][  0]LogAssetRegistry: Asset discovery search completed in 6.4833 seconds
+[2020.05.20-22.02.13:387][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.05.20-22.02.13:388][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.20-22.02.13:436][  0]LogSlate: Took 0.001298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-22.02.20:962][196]LogSlate: Took 0.001136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-22.02.21:644][196]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Untitled.Untitled
+[2020.05.20-22.02.21:661][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.05.20-22.02.21:672][196]Cmd: MAP LOAD FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Levels/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-22.02.21:672][196]LightingResults: New page: Lighting Build
+[2020.05.20-22.02.21:672][196]LoadErrors: New page: Loading map: Untitled.umap
+[2020.05.20-22.02.21:673][196]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.02.21:673][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.02.21:673][196]MapCheck: New page: Map Check
+[2020.05.20-22.02.21:673][196]LightingResults: New page: Lighting Build
+[2020.05.20-22.02.21:685][196]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAB0AC3E00), frame # 196
+[2020.05.20-22.02.21:685][196]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EAB3AB9800), frame # 196
+[2020.05.20-22.02.21:687][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.05.20-22.02.21:736][196]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-22.02.21:736][196]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-22.02.21:736][196]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAAFA45C00), frame # 196
+[2020.05.20-22.02.21:736][196]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EAE3B307C0), frame # 196
+[2020.05.20-22.02.21:754][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.05.20-22.02.21:781][196]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-22.02.21:781][196]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,204ms to complete.
+[2020.05.20-22.02.21:781][196]LogFileHelpers: Loading map 'Untitled' took 0.109
+[2020.05.20-22.08.56:420][900]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2020.05.20-22.09.00:495][985]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2020.05.20-22.12.21:691][224]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.05.20-22.12.21:881][224]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Untitled_Auto10400185E4D4D68988D0958BCCE2C3A15.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Autosaves/Game/Levels/Untitled_Auto1.umap'
+[2020.05.20-22.12.21:888][224]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Untitled' took 0.218
+[2020.05.20-22.12.21:888][224]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
+[2020.05.20-22.25.40:303][364]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_DropTarget.BP_DropTarget
+[2020.05.20-22.25.41:733][364]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0041 seconds. Added 125 classes and 0 folders.
+[2020.05.20-22.25.46:020][364]LogSlate: Took 0.002162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.20-22.25.46:349][365]LogSlate: Took 0.003607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.20-22.25.51:647][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4974.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:647][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4973.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:647][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4972.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:647][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4971.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:647][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4970.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:648][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4969.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:661][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:661][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:661][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_8.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:662][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:662][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_10.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:662][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:722][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4986.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:722][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4985.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:722][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4984.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:722][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4983.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:723][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4982.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:723][409]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4981.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:736][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:736][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:736][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:737][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:737][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.51:737][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_18.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4998.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4997.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4996.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4995.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4994.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:784][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_4993.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:810][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:811][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:811][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:811][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:811][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:811][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:898][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5010.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:899][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5009.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:899][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5008.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:899][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5007.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:899][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5006.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:901][464]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5005.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:924][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:924][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:924][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:925][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:925][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.25.57:925][464]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:017][103]BlueprintLog: New page: Compile BP_DropTarget
+[2020.05.20-22.27.03:259][103]LogUObjectHash: Compacting FUObjectHashTables data took  19.31ms
+[2020.05.20-22.27.03:301][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5022.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:301][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5021.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:301][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5020.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:301][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5019.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:301][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5018.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:302][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5017.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:318][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:319][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:319][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:319][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:319][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:319][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5034.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5033.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5032.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5031.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5030.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:372][103]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5029.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:388][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_71.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:389][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:389][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:389][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_68.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:389][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_67.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.03:389][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_66.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.27.08:519][144]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.28.10:243][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2020.05.20-22.28.10:599][216]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetSetCAD3B7B940312EB0DF41EC8052161384.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset'
+[2020.05.20-22.28.10:667][216]AssetCheck: New page: Asset Save: BP_DropTargetSet
+[2020.05.20-22.28.10:668][216]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.29.05:038][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2020.05.20-22.29.05:332][ 59]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetSet1B7B48A4400D444DE14E6C9C508AC269.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset'
+[2020.05.20-22.29.05:424][ 59]AssetCheck: New page: Asset Save: BP_DropTargetSet
+[2020.05.20-22.29.05:424][ 59]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.29.07:564][ 85]BlueprintLog: New page: Compile BP_DropTargetSet
+[2020.05.20-22.29.07:869][ 85]LogUObjectHash: Compacting FUObjectHashTables data took  19.69ms
+[2020.05.20-22.29.40:335][948]LogSlate: Took 0.004479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.05.20-22.31.10:434][ 16]LogEditorTransaction: Undo Add Node
+[2020.05.20-22.31.55:521][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2020.05.20-22.31.55:857][866]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetSet515483804494AE2B169F9A9ADF9CC42A.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset'
+[2020.05.20-22.31.55:965][866]AssetCheck: New page: Asset Save: BP_DropTargetSet
+[2020.05.20-22.31.55:965][866]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.31.56:171][870]BlueprintLog: New page: Compile BP_DropTargetSet
+[2020.05.20-22.31.56:450][870]LogUObjectHash: Compacting FUObjectHashTables data took  15.35ms
+[2020.05.20-22.31.57:596][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2020.05.20-22.31.57:955][879]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetSet0ED7450E40EC809441919BA9791E0D92.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset'
+[2020.05.20-22.31.57:995][879]AssetCheck: New page: Asset Save: BP_DropTargetSet
+[2020.05.20-22.31.57:995][879]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.32.06:288][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PinballGame.PinballGame
+[2020.05.20-22.32.36:599][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGame" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/PinballGame.uasset" SILENT=true
+[2020.05.20-22.32.36:916][494]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/PinballGameDF1B9D8940FACA08BCACEC8808E330E1.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/PinballGame.uasset'
+[2020.05.20-22.32.36:998][494]AssetCheck: New page: Asset Save: PinballGame
+[2020.05.20-22.32.36:999][494]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PinballGame.PinballGame
+[2020.05.20-22.32.37:569][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGame" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/PinballGame.uasset" SILENT=true
+[2020.05.20-22.32.37:855][501]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/PinballGame220E0F3D4BDF50B6EC9B72AF3962332D.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/PinballGame.uasset'
+[2020.05.20-22.32.37:921][501]AssetCheck: New page: Asset Save: PinballGame
+[2020.05.20-22.32.37:921][501]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PinballGame.PinballGame
+[2020.05.20-22.32.39:656][524]BlueprintLog: New page: Compile PinballGame
+[2020.05.20-22.32.39:993][524]LogUObjectHash: Compacting FUObjectHashTables data took  19.14ms
+[2020.05.20-22.34.15:944][162]LogEditorTransaction: Undo Add Node
+[2020.05.20-22.34.25:467][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2020.05.20-22.34.25:812][319]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetSet25FA244F4BF641C0DDA128A353FBC508.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTargetSet.uasset'
+[2020.05.20-22.34.25:909][319]AssetCheck: New page: Asset Save: BP_DropTargetSet
+[2020.05.20-22.34.25:909][319]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet
+[2020.05.20-22.34.26:299][325]BlueprintLog: New page: Compile BP_DropTargetSet
+[2020.05.20-22.34.26:575][325]LogUObjectHash: Compacting FUObjectHashTables data took  20.31ms
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5322.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5321.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5320.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5319.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5318.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:361][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5317.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:386][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_287.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:386][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_286.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:386][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_285.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:386][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_284.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:387][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_283.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:387][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_282.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:409][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_395.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:409][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_394.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:410][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_393.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:410][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_392.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:410][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_391.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.31:410][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_390.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.36.32:119][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2020.05.20-22.36.32:399][ 47]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTarget8B1BCB5C48A95330DED01983F41C3A53.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset'
+[2020.05.20-22.36.32:465][ 47]AssetCheck: New page: Asset Save: BP_DropTarget
+[2020.05.20-22.36.32:466][ 47]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTarget.BP_DropTarget
+[2020.05.20-22.36.59:121][136]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2020.05.20-22.36.59:290][136]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Untitled_Auto2CC80EE884472D4CCFE3495A7D5FABAA0.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Autosaves/Game/Levels/Untitled_Auto2.umap'
+[2020.05.20-22.36.59:294][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Untitled' took 0.238
+[2020.05.20-22.36.59:294][136]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2020.05.20-22.37.19:856][231]BlueprintLog: New page: Compile BP_DropTarget
+[2020.05.20-22.37.19:982][231]LogUObjectHash: Compacting FUObjectHashTables data took   7.04ms
+[2020.05.20-22.37.19:998][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5334.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.19:999][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5333.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.19:999][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5332.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.19:999][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5331.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.19:999][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5330.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.19:999][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5329.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_299.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_298.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_297.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_296.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_295.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:009][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_294.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_407.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_406.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_405.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_404.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_403.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:015][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_402.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5358.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5357.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5356.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5355.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5354.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:082][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Untitled.Untitled:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_5353.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:108][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_323.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:109][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_322.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:109][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_321.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:110][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_320.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:110][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_319.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:110][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_318.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:120][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_431.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:120][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_430.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:120][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_429.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:120][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_428.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:120][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_427.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:121][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_DropTarget_C_CHILDACTOR_426.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.05.20-22.37.20:947][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2020.05.20-22.37.21:145][237]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetA15E033149339B1BA75410AD653CA96E.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset'
+[2020.05.20-22.37.21:242][237]AssetCheck: New page: Asset Save: BP_DropTarget
+[2020.05.20-22.37.21:242][237]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTarget.BP_DropTarget
+[2020.05.20-22.37.55:920][626]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-22.37.55:997][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-22.37.55:999][626]PIE: New page: PIE session: Untitled (21.05.2020, 02:37:55)
+[2020.05.20-22.37.56:009][626]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.20-22.37.56:015][626]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.20-22.37.56:016][626]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Untitled
+[2020.05.20-22.37.56:060][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044784s)
+[2020.05.20-22.37.56:064][626]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-22.37.56:064][626]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB23007200), frame # 32626
+[2020.05.20-22.37.56:065][626]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB2E550180), frame # 32626
+[2020.05.20-22.37.56:066][626]LogPlayLevel: PIE: World Init took: (0.005116s)
+[2020.05.20-22.37.56:066][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Untitled.Untitled to /Game/Levels/UEDPIE_0_Untitled.Untitled (0.050665s)
+[2020.05.20-22.37.56:180][626]LogUObjectHash: Compacting FUObjectHashTables data took  15.96ms
+[2020.05.20-22.37.56:184][626]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-22.37.56:184][626]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-22.37.56:184][626]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-22.37.56:184][626]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-22.37.56:185][626]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-22.37.56:185][626]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-22.37.56:185][626]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-22.37.56:185][626]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-22.37.56:186][626]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-22.37.56:186][626]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-22.37.56:392][626]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-22.37.56:392][626]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-22.37.57:011][626]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek(R) Audio)
+[2020.05.20-22.37.57:012][626]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-22.37.57:012][626]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-22.37.57:012][626]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-22.37.57:015][626]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-22.37.57:081][626]LogInit: FAudioDevice initialized.
+[2020.05.20-22.37.57:137][626]LogLoad: Game class is 'PinballGame_C'
+[2020.05.20-22.37.57:158][626]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2020.05.21-00.37.57
+[2020.05.20-22.37.57:160][626]LogWorld: Bringing up level for play took: 0.013012
+[2020.05.20-22.37.57:161][626]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.20-22.37.57:235][626]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 20 classes and 0 folders.
+[2020.05.20-22.37.57:246][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.37.57:254][626]PIE: Server logged in
+[2020.05.20-22.37.57:258][626]PIE: Play in editor total start time 1,277 seconds.
+[2020.05.20-22.37.58:826][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.17:010][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.17:028][910]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-22.38.17:048][910]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-22.38.17:072][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.17:072][910]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Untitled
+[2020.05.20-22.38.17:073][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.17:073][910]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.38.17:076][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.38.17:156][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-22.38.17:169][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.38.17:268][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.17:343][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.17:362][910]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB2E550180), frame # 32910
+[2020.05.20-22.38.17:362][910]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB23007200), frame # 32910
+[2020.05.20-22.38.17:443][910]LogUObjectHash: Compacting FUObjectHashTables data took  22.16ms
+[2020.05.20-22.38.17:595][911]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.20-22.38.18:917][929]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-22.38.18:994][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-22.38.18:994][929]PIE: New page: PIE session: Untitled (21.05.2020, 02:38:18)
+[2020.05.20-22.38.18:995][929]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Untitled
+[2020.05.20-22.38.19:039][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043136s)
+[2020.05.20-22.38.19:042][929]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-22.38.19:042][929]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB45B9BC00), frame # 32929
+[2020.05.20-22.38.19:042][929]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB3ADDA340), frame # 32929
+[2020.05.20-22.38.19:043][929]LogPlayLevel: PIE: World Init took: (0.003864s)
+[2020.05.20-22.38.19:043][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Untitled.Untitled to /Game/Levels/UEDPIE_0_Untitled.Untitled (0.047399s)
+[2020.05.20-22.38.19:161][929]LogUObjectHash: Compacting FUObjectHashTables data took  18.48ms
+[2020.05.20-22.38.19:164][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-22.38.19:164][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-22.38.19:164][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-22.38.19:166][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-22.38.19:166][929]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-22.38.19:166][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-22.38.19:166][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-22.38.19:166][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-22.38.19:168][929]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-22.38.19:168][929]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-22.38.19:374][929]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-22.38.19:374][929]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-22.38.19:957][929]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek(R) Audio)
+[2020.05.20-22.38.19:959][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-22.38.19:959][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-22.38.19:959][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-22.38.19:962][929]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-22.38.19:965][929]LogInit: FAudioDevice initialized.
+[2020.05.20-22.38.20:042][929]LogLoad: Game class is 'PinballGame_C'
+[2020.05.20-22.38.20:055][929]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2020.05.21-00.38.20
+[2020.05.20-22.38.20:056][929]LogWorld: Bringing up level for play took: 0.009364
+[2020.05.20-22.38.20:057][929]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.05.20-22.38.20:075][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.20:081][929]PIE: Server logged in
+[2020.05.20-22.38.20:086][929]PIE: Play in editor total start time 1,108 seconds.
+[2020.05.20-22.38.21:421][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.34:914][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.36:168][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.43:311][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.44:168][390]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.44:179][390]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-22.38.44:200][390]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-22.38.44:228][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.44:228][390]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Untitled
+[2020.05.20-22.38.44:228][390]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.44:228][390]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.38.44:233][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.38.44:309][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-22.38.44:328][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.38.44:472][390]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-22.38.44:575][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-22.38.44:581][390]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB3ADDA340), frame # 33390
+[2020.05.20-22.38.44:581][390]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB45B9BC00), frame # 33390
+[2020.05.20-22.38.44:601][390]LogUObjectHash: Compacting FUObjectHashTables data took  17.84ms
+[2020.05.20-22.38.44:803][391]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.05.20-22.42.24:526][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTarget" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset" SILENT=true
+[2020.05.20-22.42.24:585][964]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/BP_DropTargetD601A574491C5313BD3BF4BF33DF87FB.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Blueprints/BP_DropTarget.uasset'
+[2020.05.20-22.42.24:613][964]AssetCheck: New page: Asset Save: BP_DropTarget
+[2020.05.20-22.42.24:613][964]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_DropTarget.BP_DropTarget
+[2020.05.20-22.42.55:761][346]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\joaoamatos\Desktop\ArchVisDemoV2 4.24\PinballAssets\SM_SlingbandMT.FBX)
+[2020.05.20-22.42.55:782][346]LogFbx: Loading FBX Scene from C:\Users\joaoamatos\Desktop\ArchVisDemoV2 4.24\PinballAssets\SM_SlingbandMT.FBX
+[2020.05.20-22.42.55:796][346]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.20-22.42.58:686][346]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.20-22.42.58:964][346]LogStaticMesh: Building static mesh SM_SlingbandMT...
+[2020.05.20-22.42.58:995][346]LogStaticMesh: Built static mesh [0.03s] /Game/Blueprints/SM_SlingbandMT.SM_SlingbandMT
+[2020.05.20-22.43.02:138][378]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blueprints/SM_SlingbandMT.SM_SlingbandMT
+[2020.05.20-22.43.02:641][378]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.43.02:641][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.43.03:349][379]LogRenderer: Reallocating scene render targets to support 1516x920 Format 10 NumSamples 1 (Frame:1).
+[2020.05.20-22.43.56:930][891]LogUObjectHash: Compacting FUObjectHashTables data took   9.38ms
+[2020.05.20-22.43.58:726][891]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.20-22.43.59:684][891]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.43.59:684][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.43.59:714][891]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/SM_SlingbandMT.SM_SlingbandMT
+[2020.05.20-22.44.00:837][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.05.20-22.44.08:317][972]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\joaoamatos\Desktop\ArchVisDemoV2 4.24\PinballAssets\SM_SlingbandMT.FBX)
+[2020.05.20-22.44.08:333][972]LogFbx: Loading FBX Scene from C:\Users\joaoamatos\Desktop\ArchVisDemoV2 4.24\PinballAssets\SM_SlingbandMT.FBX
+[2020.05.20-22.44.08:348][972]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.20-22.44.10:134][972]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.20-22.44.10:194][972]LogStaticMesh: Building static mesh SM_SlingbandMT...
+[2020.05.20-22.44.10:232][972]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/SM_SlingbandMT.SM_SlingbandMT
+[2020.05.20-22.44.22:068][200]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/M_MoprhBand.M_MoprhBand
+[2020.05.20-22.44.22:070][200]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.44.22:276][200]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.44.22:289][200]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.44.22:403][200]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.44.22:403][200]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.44.22:403][200]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.44.22:403][200]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.44.25:422][237]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.44.26:205][247]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.44.26:649][253]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.44.26:807][255]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.20-22.44.27:466][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.05.20-22.44.27:573][265]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.05.20-22.44.28:825][281]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.44.28:923][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-22.44.30:533][305]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.05.20-22.44.30:533][305]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.05.20-22.44.30:534][305]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.44.30:534][305]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.44.37:858][421]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.44.37:879][421]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.44.37:994][422]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.44.37:995][422]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.44.37:995][422]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.44.37:995][422]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.44.38:976][436]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.44.40:170][451]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.44.40:249][452]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-22.44.40:271][452]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.05.20-22.44.41:313][466]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.44.41:521][469]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.44.42:584][482]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.44.42:788][485]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.05.20-22.44.42:947][487]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.05.20-22.44.43:805][498]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.20-22.44.44:279][503]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.05.20-22.44.44:387][505]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.05.20-22.44.44:806][510]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.05.20-22.44.44:806][510]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.05.20-22.44.44:806][510]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.44.44:806][510]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.45.11:333][931]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.11:351][931]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.45.11:351][931]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.45.11:351][931]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.45.11:351][931]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.45.11:355][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.45.11:367][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.05.20-22.45.13:295][958]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.05.20-22.45.13:850][964]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.14:583][974]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.05.20-22.45.14:671][975]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.20-22.45.14:803][977]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.05.20-22.45.14:976][978]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.15:445][985]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.05.20-22.45.15:952][992]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.05.20-22.45.16:328][997]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.05.20-22.45.16:434][998]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.05.20-22.45.16:741][  1]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.16:899][  2]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2020.05.20-22.45.17:277][  8]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.05.20-22.45.18:243][ 21]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.05.20-22.45.18:476][ 24]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-22.45.18:476][ 24]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.05.20-22.45.18:550][ 25]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.05.20-22.45.20:612][ 53]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.05.20-22.45.20:677][ 54]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.45.20:813][ 56]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.20-22.45.20:956][ 58]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.05.20-22.45.21:982][ 72]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.05.20-22.45.22:268][ 76]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.05.20-22.45.22:924][ 85]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.05.20-22.45.25:619][120]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.05.20-22.45.25:619][120]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.05.20-22.45.25:619][120]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.45.25:619][120]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.45.38:133][321]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.38:254][322]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.45.38:254][322]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.45.38:254][322]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.45.38:254][322]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.45.39:080][334]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.45.39:976][347]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.45.40:278][351]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.05.20-22.45.40:278][351]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.20-22.45.40:961][359]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.41:193][363]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.45.41:291][364]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.45.42:233][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.05.20-22.45.42:427][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.05.20-22.45.42:522][380]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.05.20-22.45.43:268][389]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.43:701][396]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.05.20-22.45.44:262][404]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.05.20-22.45.44:330][405]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.45.44:687][410]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.05.20-22.45.44:701][410]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.05.20-22.45.46:337][431]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.20-22.45.46:469][433]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.45.46:508][434]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.05.20-22.45.46:772][438]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.05.20-22.45.46:933][439]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.46:966][439]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.45.47:553][447]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.05.20-22.45.48:087][455]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2020.05.20-22.45.48:499][460]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.05.20-22.45.48:547][461]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.05.20-22.45.48:660][462]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.45.50:235][484]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.45.50:305][485]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-22.45.50:461][487]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.05.20-22.45.50:797][491]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.45.51:546][502]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.45.52:073][509]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.05.20-22.45.52:579][516]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.20-22.45.52:800][519]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.05.20-22.45.53:941][533]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.20-22.45.54:023][534]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.45.54:242][537]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.05.20-22.45.54:515][540]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.45.54:515][540]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.45.54:515][540]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.45.54:515][540]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.45.59:791][611]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.45.59:903][612]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.45.59:903][612]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.45.59:903][612]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.45.59:903][612]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.45.59:922][612]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.05.20-22.46.00:405][614]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.05.20-22.46.00:819][614]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.05.20-22.46.00:900][614]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.05.20-22.46.00:994][614]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.05.20-22.46.01:900][627]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.46.01:915][627]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.05.20-22.46.02:943][640]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.05.20-22.46.03:095][642]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.05.20-22.46.03:335][645]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.46.04:226][656]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.05.20-22.46.04:458][659]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.05.20-22.46.04:999][666]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-22.46.05:088][667]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-22.46.05:148][667]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.46.05:148][667]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.46.05:148][667]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.46.05:148][667]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.46.32:915][ 70]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.33:023][ 71]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.46.33:024][ 71]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.05.20-22.46.33:024][ 71]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.05.20-22.46.33:024][ 71]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.05.20-22.46.33:788][ 80]LogMaterialEditor: Saving and Compiling material M_MoprhBand
+[2020.05.20-22.46.35:486][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.05.20-22.46.35:486][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.05.20-22.46.35:486][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2020.05.20-22.46.35:486][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.05.20-22.46.35:486][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2020.05.20-22.46.35:556][ 80]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.35:656][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.46.35:656][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.05.20-22.46.35:719][ 80]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.35:846][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2020.05.20-22.46.35:863][ 80]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-22.46.36:432][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 61
+[2020.05.20-22.46.36:432][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.05.20-22.46.36:432][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 57
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 54
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2020.05.20-22.46.36:992][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 52
+[2020.05.20-22.46.37:553][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 51
+[2020.05.20-22.46.37:553][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2020.05.20-22.46.37:553][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 49
+[2020.05.20-22.46.38:114][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2020.05.20-22.46.38:114][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2020.05.20-22.46.38:114][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2020.05.20-22.46.38:114][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 45
+[2020.05.20-22.46.38:114][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
+[2020.05.20-22.46.38:675][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2020.05.20-22.46.38:675][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2020.05.20-22.46.38:675][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2020.05.20-22.46.39:236][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.05.20-22.46.39:303][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.20-22.46.39:312][ 80]TextureStreamingBuild: Display: Compiling optional shaders took 3.460 seconds.
+[2020.05.20-22.46.39:350][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.05.20-22.46.39:964][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.05.20-22.46.41:647][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-22.46.41:647][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.20-22.46.42:766][ 80]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.20-22.46.42:766][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.05.20-22.46.42:766][ 80]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.46.43:315][ 80]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-22.46.43:432][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MoprhBand" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset" SILENT=true
+[2020.05.20-22.46.43:447][ 80]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/M_MoprhBand81A3B96D4FADE0859C4F58BF29F13325.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset'
+[2020.05.20-22.46.43:502][ 80]AssetCheck: New page: Asset Save: M_MoprhBand
+[2020.05.20-22.46.43:502][ 80]LogContentValidation: Display: Validating Material /Game/Assets/M_MoprhBand.M_MoprhBand
+[2020.05.20-22.46.43:513][ 80]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.46.43:514][ 80]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.46.43:514][ 80]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2020.05.20-22.46.43:514][ 80]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.20-22.46.48:269][151]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.48:300][151]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.46.48:300][151]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.05.20-22.46.48:300][151]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.05.20-22.46.48:300][151]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.05.20-22.46.48:300][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.46.49:396][166]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.46.49:442][166]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.05.20-22.46.49:523][166]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.49:571][166]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.46.50:448][177]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.05.20-22.46.50:489][178]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.05.20-22.46.50:498][178]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.05.20-22.46.50:514][178]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.05.20-22.46.51:573][190]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.05.20-22.46.51:919][194]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.05.20-22.46.52:377][198]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.52:428][198]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.46.52:769][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.05.20-22.46.52:817][204]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.05.20-22.46.52:836][204]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.05.20-22.46.53:117][208]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.05.20-22.46.53:885][218]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.05.20-22.46.54:271][223]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.05.20-22.46.54:882][229]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.54:936][229]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.46.55:007][230]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2020.05.20-22.46.55:007][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.05.20-22.46.55:055][231]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.05.20-22.46.55:310][235]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2020.05.20-22.46.56:051][244]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.46.56:131][244]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.56:183][244]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.20-22.46.56:200][244]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.20-22.46.56:354][247]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.05.20-22.46.57:313][258]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2020.05.20-22.46.57:610][261]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2020.05.20-22.46.57:610][261]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.05.20-22.46.57:843][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.05.20-22.46.58:078][268]LogMaterialEditor: Saving and Compiling material M_MoprhBand
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.05.20-22.46.59:652][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.05.20-22.46.59:725][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.05.20-22.46.59:725][268]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.59:834][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.05.20-22.46.59:892][268]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.46.59:963][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.05.20-22.47.00:018][268]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2020.05.20-22.47.00:031][268]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-22.47.00:601][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 64
+[2020.05.20-22.47.00:601][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2020.05.20-22.47.01:162][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 62
+[2020.05.20-22.47.01:162][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 61
+[2020.05.20-22.47.01:162][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 60
+[2020.05.20-22.47.01:162][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+[2020.05.20-22.47.01:722][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2020.05.20-22.47.01:722][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 57
+[2020.05.20-22.47.01:722][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2020.05.20-22.47.02:283][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 55
+[2020.05.20-22.47.02:283][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+[2020.05.20-22.47.02:283][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 53
+[2020.05.20-22.47.02:283][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2020.05.20-22.47.02:283][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 51
+[2020.05.20-22.47.02:844][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2020.05.20-22.47.02:844][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2020.05.20-22.47.02:844][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2020.05.20-22.47.03:405][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 47
+[2020.05.20-22.47.03:405][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2020.05.20-22.47.03:405][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 45
+[2020.05.20-22.47.03:405][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
+[2020.05.20-22.47.03:966][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2020.05.20-22.47.03:966][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2020.05.20-22.47.03:966][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2020.05.20-22.47.03:966][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.05.20-22.47.04:527][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2020.05.20-22.47.04:527][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2020.05.20-22.47.04:527][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.05.20-22.47.04:527][268]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.05.20-22.47.04:527][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2020.05.20-22.47.04:649][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.20-22.47.04:664][268]TextureStreamingBuild: Display: Compiling optional shaders took 4.644 seconds.
+[2020.05.20-22.47.04:707][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.05.20-22.47.05:346][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.05.20-22.47.07:028][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.05.20-22.47.07:589][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.20-22.47.08:150][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.20-22.47.08:150][268]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.05.20-22.47.08:710][268]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-22.47.09:241][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MoprhBand" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset" SILENT=true
+[2020.05.20-22.47.09:307][268]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/M_MoprhBand2200DC7E4B1DDB79F54D03B8075741E7.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset'
+[2020.05.20-22.47.09:341][268]AssetCheck: New page: Asset Save: M_MoprhBand
+[2020.05.20-22.47.09:341][268]LogContentValidation: Display: Validating Material /Game/Assets/M_MoprhBand.M_MoprhBand
+[2020.05.20-22.47.09:342][268]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.47.09:342][268]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.47.09:342][268]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2020.05.20-22.47.09:342][268]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.20-22.47.19:877][417]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/SM_SlingbandMT.SM_SlingbandMT
+[2020.05.20-22.47.20:181][417]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.47.20:181][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.47.40:968][584]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.47.40:987][584]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.47.40:987][584]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.47.40:987][584]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.47.40:987][584]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.47.43:305][604]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.47.44:955][616]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.47.45:037][617]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.47.45:053][617]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.20-22.47.45:289][617]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.47.46:207][626]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.47.46:617][629]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.47.47:328][634]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.05.20-22.47.47:590][636]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.05.20-22.47.47:709][637]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.05.20-22.47.49:117][648]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.47.49:629][652]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.47.49:629][652]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.05.20-22.47.49:914][654]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.05.20-22.47.50:755][660]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.20-22.47.51:577][665]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-22.47.52:248][671]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.05.20-22.47.54:051][684]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.47.54:076][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.47.54:076][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.20-22.47.54:076][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.47.54:076][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.47.55:076][694]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.05.20-22.47.56:149][702]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.47.56:331][703]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.05.20-22.47.56:534][704]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.20-22.47.56:653][704]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.47.57:548][712]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.47.57:618][713]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.47.58:725][721]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.47.58:743][721]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.05.20-22.47.59:014][723]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.05.20-22.48.00:355][733]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.48.01:388][741]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.05.20-22.48.01:555][742]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.05.20-22.48.02:065][746]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.05.20-22.48.02:121][746]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.05.20-22.48.04:168][762]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.48.04:709][764]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.48.04:954][767]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.05.20-22.48.05:010][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.05.20-22.48.06:791][781]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.20-22.48.07:351][785]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.05.20-22.48.07:778][788]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.05.20-22.48.11:061][812]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.20-22.48.11:432][815]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.05.20-22.48.11:591][816]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.05.20-22.48.12:413][822]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.05.20-22.48.12:664][824]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.05.20-22.48.14:023][834]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.48.14:023][834]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-22.48.16:145][849]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.48.16:145][849]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.48.16:145][849]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.20-22.48.16:145][849]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.20-22.48.22:953][905]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.48.23:001][905]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2020.05.20-22.48.23:001][905]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.05.20-22.48.23:001][905]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.05.20-22.48.23:001][905]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.05.20-22.48.24:131][915]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.05.20-22.48.24:216][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.05.20-22.48.24:304][916]LogMaterialEditor: Saving and Compiling material M_MoprhBand
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.05.20-22.48.26:034][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.20-22.48.26:035][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.05.20-22.48.26:108][916]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.48.26:215][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2020.05.20-22.48.26:258][916]LogMaterial: Display: Missing cached shader map for material M_MoprhBand, compiling. 
+[2020.05.20-22.48.26:318][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 60
+[2020.05.20-22.48.26:386][916]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2020.05.20-22.48.26:397][916]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-22.48.26:965][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 61
+[2020.05.20-22.48.26:965][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2020.05.20-22.48.26:965][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 58
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 55
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2020.05.20-22.48.27:525][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2020.05.20-22.48.28:086][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
+[2020.05.20-22.48.28:086][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 51
+[2020.05.20-22.48.28:086][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2020.05.20-22.48.28:086][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2020.05.20-22.48.28:646][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2020.05.20-22.48.28:646][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2020.05.20-22.48.28:646][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.05.20-22.48.28:646][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 45
+[2020.05.20-22.48.29:206][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2020.05.20-22.48.29:206][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 43
+[2020.05.20-22.48.29:206][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2020.05.20-22.48.29:206][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
+[2020.05.20-22.48.29:766][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+[2020.05.20-22.48.29:766][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2020.05.20-22.48.29:766][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2020.05.20-22.48.29:766][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2020.05.20-22.48.30:163][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.05.20-22.48.30:163][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.05.20-22.48.30:163][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2020.05.20-22.48.30:168][916]TextureStreamingBuild: Display: Compiling optional shaders took 3.781 seconds.
+[2020.05.20-22.48.30:218][916]LogUObjectHash: Compacting FUObjectHashTables data took   6.79ms
+[2020.05.20-22.48.30:846][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.05.20-22.48.33:089][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-22.48.33:089][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.20-22.48.34:207][916]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.05.20-22.48.34:207][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.05.20-22.48.34:207][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-22.48.34:207][916]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.05.20-22.48.34:988][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/M_MoprhBand" FILE="../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset" SILENT=true
+[2020.05.20-22.48.35:066][916]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/M_MoprhBand4C8C254B410C7953500E0C9127272DFE.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Content/Assets/M_MoprhBand.uasset'
+[2020.05.20-22.48.35:091][916]AssetCheck: New page: Asset Save: M_MoprhBand
+[2020.05.20-22.48.35:091][916]LogContentValidation: Display: Validating Material /Game/Assets/M_MoprhBand.M_MoprhBand
+[2020.05.20-22.48.35:100][916]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.20-22.48.35:100][916]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.20-22.48.35:100][916]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2020.05.20-22.48.35:100][916]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.20-22.48.37:721][937]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-22.48.37:721][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-22.48.38:663][942]LogUObjectHash: Compacting FUObjectHashTables data took   9.84ms
+[2020.05.20-22.48.38:853][942]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Untitled_Auto3019393DE4C39A19466091EB66C41E09F.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Autosaves/Game/Levels/Untitled_Auto3.umap'
+[2020.05.20-22.48.38:858][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Untitled' took 0.277
+[2020.05.20-22.48.38:858][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2020.05.20-22.48.38:860][942]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_SlingbandMT] ([1] browsable assets)...
+[2020.05.20-22.48.38:954][942]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_SlingbandMT.SM_SlingbandMT]
+[2020.05.20-22.48.38:954][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_SlingbandMT]
+[2020.05.20-22.48.39:009][942]LogSavePackage: Moving '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/SM_SlingbandMT_Auto3E443353A41737122F7B493A9B9285144.tmp' to '../../../../../../Users/joaoamatos/Documents/Unreal Projects/PinballTut/Saved/Autosaves/Game/Assets/SM_SlingbandMT_Auto3.uasset'
+[2020.05.20-22.48.39:012][942]LogFileHelpers: Auto-saving content packages took 0.153
+[2020.05.20-22.48.49:407][  6]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.20-22.48.55:598][ 65]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Slingshot.BP_Slingshot
+[2020.05.20-22.50.46:301][837]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.46:304][837]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.46:481][838]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.46:636][839]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.46:796][840]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.48:060][848]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.48:216][849]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.49:451][856]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.49:453][856]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.49:603][857]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.51:351][868]LogPhysics: Warning: Scale for /Engine/Transient.World_18:PersistentLevel.BP_Slingshot_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=0.000 Z=1.500
+[2020.05.20-22.50.58:094][880]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2020.05.20-22.51.03:092][880]LogD3D11RHI: GetQueryData is taking a very long time (10.0 s)
+[2020.05.20-22.51.08:093][880]LogD3D11RHI: GetQueryData is taking a very long time (15.0 s)
+[2020.05.20-22.51.13:092][880]LogD3D11RHI: GetQueryData is taking a very long time (20.0 s)
+[2020.05.20-22.51.18:094][880]LogD3D11RHI: GetQueryData is taking a very long time (25.0 s)
+[2020.05.20-22.51.23:103][880]LogD3D11RHI: GetQueryData is taking a very long time (30.0 s)
+[2020.05.20-22.51.23:103][880]LogD3D11RHI: Timed out while waiting for GPU to catch up. (30.0 s) (ErrorCode 00000001)
+[2020.05.20-22.51.23:103][880]LogWindows: Windows GetLastError: The operation completed successfully. (0)
